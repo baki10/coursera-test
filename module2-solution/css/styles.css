@@ -19,18 +19,26 @@ h3 {
 .bg-salmon {
   	background-color: #FA8072;
 }
+
 .bg-red{
 	background-color: red;
 }
+
 .bg-yellow{
 	background-color: yellow;
 }
+
 .text-white{
 	color: white;
 }
 
 .container {
 	margin: 10px;
+}
+
+.menu-item {
+	border: 1px solid;
+	background-color: lightgray;
 }
 
 .menu-title {
@@ -44,26 +52,20 @@ h3 {
 	float: right;
 }
 
-.menu-container {
-	float: left;
-	padding: 10px;
-}
-
-.menu-item {
-	border: 1px solid;
-	background-color: lightgray;
-}
-
 .menu-description {
   clear: right;
   padding: 10px;
 }
 
+.col-lg-4, .col-md-6, .col-md-12, .col-sm-12 {
+	float: left;
+	padding: 10px;
+}
+
 /********** Desctop devices only **********/
 @media (min-width: 992px) {
-  
 
-	.menu-container {
+	.col-lg-4 {
 		width: 33.33%;
 	}
 }
@@ -71,21 +73,19 @@ h3 {
 /********** Tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   
-
-	.menu-container {
+	.col-md-6 {
 		width: 50%;
 	}
 
-	#menu-3 {
+	.col-md-12 {
 		width: 100%;
 	}
 }
 
 /********** Mobile devices only **********/
 @media (max-width: 767px) {
-  
 
-	.menu-item {
+	.col-sm-12 {
 		width: 100%;
 	}
 }
