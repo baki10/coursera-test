@@ -1,0 +1,39 @@
+/** HEADER **/
+#header-nav {
+  background-color: #AEAEAE;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+  color: #333333;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  background-color: #E7E7E7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list a {
+  color: #333333;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #AEAEAE;
+}
+
+#really-tall-section {
+  background-color: #AEAEAE;
+}
+
+#main-content .row {
+  margin: 0 20px 0;
+}
